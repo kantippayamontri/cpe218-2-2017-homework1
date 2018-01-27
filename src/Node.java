@@ -1,7 +1,7 @@
 
 public class Node {
 
-    char value;
+    Character value;
 
     Node left;
     Node right;
@@ -19,4 +19,7 @@ public class Node {
         right = null;
     }
 
+    public String toString() {
+        return value.toString();
+    }
 }
