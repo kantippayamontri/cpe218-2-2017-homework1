@@ -43,6 +43,9 @@
  *    tutorialcont.html
  *    vm.html
  */
+
+
+
 import javax.swing.ImageIcon;
 import javax.swing.JEditorPane;
 import javax.swing.JFrame;
@@ -83,6 +86,9 @@ public class treeGui extends JPanel
     public static boolean is_leaf = false;
 
 
+
+
+    
     public treeGui(Node x) {
         super(new GridLayout(1,0));
 
